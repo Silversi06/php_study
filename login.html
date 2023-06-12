@@ -3,50 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-    <!-- 부가적인 테마 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <h1>Login form</h1>
-        <form method="post" action="#">
-            Input your Id : <input type="text" name="user_id" placeholder="Id" required><br>
-            <!--아이디를 입력하면 내가 지정한 name변수 user_id에 들어간다.                                                                      -->
-            Input your password : <input type="password" name="user_pass"  placeholder="password"><br>
-            <button type="submit" class="btn btn-warning">Login</button>
-            
-        </form>
-        <!-- <table  align="center"></table>
-        <tr>
-            <td align ="right">ID</td>
-            <td>
-                &nbsp; &nbsp;&nbsp;&nbsp;
-                <input type ="text" size="12">
-                <br>
-        </tr>
-       <tr>
-            <td align="right">password</td>
-            <td>
-                &nbsp; &nbsp;&nbsp;&nbsp;
-                <input type ="password" size="12">
-                <br>
-                <input type ="button" value="login"/><br>
-            </td>
-        </tr> -->
-
-        <!-- <label for="inputPassword5" class="form-label">Password</label>
-    <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock"> -->
-    <!-- <div id="passwordHelpBlock" class="form-text"></div> --> 
-    
+    <h1>LOGIN FORM</h1>
+    <form method="post" action="login.php">
+        ID : <input type="text" name="user_id" placeholder="Id">
+        <br>
+        PASS : <input type="password" name="user_pass" placeholder="PassWord">
+        <br>
+        <button type="submit" class="btn btn-warning">LONGIN</button>
+    </form>
 </body>
 </html>
