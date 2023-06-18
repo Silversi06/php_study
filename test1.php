@@ -1,15 +1,11 @@
 <?php
-$a = 0;
-$b = 0;
-$c = 0;
-  for($a;$a<=100;$a++){
-    if($a%2==0){
-    $b += $a;
+$num = $_POST['num'];
+
+echo "n의 배수만 출력: ";
+  for($a=0;$a<=100;$a++){
+    if($a%$num==0){
+      echo $a."<br>";
     }
-  else{
-    $c += $a;
   }
-  }
-  echo $_GET['num']."<br>";
-  echo $_GET['data2'];
+ 
 ?>
